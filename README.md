@@ -1,8 +1,8 @@
-# freeCodeCamp - Responsive Web Design
+# Frontend Basics
 
-Repositório com os projetos desenvolvidos durante o curso **Responsive Web Design** do freeCodeCamp.
+Repositório com acompanhamento do Progresso nos meus estudos de HTML E CSS
 
-## Projetos
+## Projetos Freed Code Camp
 
 - [x] 01 - Cat Photo App
 - [ ] 02 - Cafe Menu
@@ -11,3 +11,5 @@ Repositório com os projetos desenvolvidos durante o curso **Responsive Web Desi
 - [ ] 05 - Rothko Painting
 - [ ] 06 - Photo Gallery
 - [ ] ...
+
+
