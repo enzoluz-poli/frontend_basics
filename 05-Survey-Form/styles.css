@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: Tahoma;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+fieldset {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button,
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1f1e3a;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    opacity: 0.85;
+}

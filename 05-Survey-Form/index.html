@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Forms POLI USP</h1>
+    <p id="description">Obrigado por nos ajudar com essa pesquisa!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Enzo <input placeholder="Enzo Luz" type"text" id="name" name="name"
+                    required> </label>
+            <label id="email-label" for="email"> Email <input placeholder="enzo.luz@usp.br" id="email" type="email"
+                    required name="email"></label>
+            <label id="number-label" for="number">Idade(Optional)<input placeholder=17 id="number" min=13 max=120
+                    type="number" name="age"></label>
+            <fieldset>
+                <select id="dropdown" name="dropdown">
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Como nos conheceu?</legend>
+                <label for="redes sociais"><input name="conhecimento" value=0 class="inline" checked id="redes sociais"
+                        type="radio">Redes Sociais</label>
+                <label for="propaganda"><input value=1 name="conhecimento" class="inline" id="propaganda"
+                        type="radio">Propaganda</label>
+            </fieldset>
+            <fieldset>
+                <legend>Área de Atuação|</legend>
+                <label><input checked value=0 name="atuação" id="engenharia" type="checkbox">Engenharia</label>
+                <label><input value=1 name="atuação" id="marketing" type="checkbox">Marketing</label>
+            </fieldset>
+            <fieldset>
+                <legend>Comentário</legend>
+                <label for="comentaria"><textarea name="comentario" name="comentario" placeholder="Excelente trabalho!"
+                        rows=3 cols=35 id="comentario"></textarea></label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
