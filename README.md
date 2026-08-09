@@ -8,7 +8,7 @@ Repositório com acompanhamento do Progresso nos meus estudos de HTML E CSS
 - [X] 02 - Cafe Menu
 - [X] 03 - Colored Markers
 - [X] 04 - Registration Form
-- [ ] 05 - Survey Form
+- [X] 05 - Survey Form
 - [ ] ...
 
 
