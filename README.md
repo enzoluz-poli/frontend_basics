@@ -9,6 +9,7 @@ Repositório com acompanhamento do Progresso nos meus estudos de HTML E CSS
 - [X] 03 - Colored Markers
 - [X] 04 - Registration Form
 - [X] 05 - Survey Form
-- [ ] ...
+- [X] 06-Rothko-Painting
+- [X] 07-Building-Photo-Gallery
 
 
